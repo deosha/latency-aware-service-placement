@@ -1,0 +1,824 @@
+[
+  {
+    "problem_name": "smart_factory",
+    "num_services": 5,
+    "num_locations": 5,
+    "num_edges": 4,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 115.0,
+        "solve_time": 0.34,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 22.0,
+        "avg_cpu_utilization": 42.5,
+        "avg_memory_utilization": 38.2,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {
+          "num_variables": 25,
+          "num_constraints": 42
+        },
+        "placement": {
+          "0": 0,
+          "1": 1,
+          "2": 3,
+          "3": 2,
+          "4": 2
+        }
+      },
+      "Greedy": {
+        "objective_value": 160.0,
+        "solve_time": 0.0002,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 42.0,
+        "avg_cpu_utilization": 38.1,
+        "avg_memory_utilization": 35.7,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {
+          "0": 0,
+          "1": 0,
+          "2": 1,
+          "3": 2,
+          "4": 3
+        }
+      },
+      "FirstFit": {
+        "objective_value": 440.0,
+        "solve_time": 0.0001,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 204.0,
+        "avg_cpu_utilization": 31.2,
+        "avg_memory_utilization": 28.9,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {
+          "0": 0,
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      "Random": {
+        "objective_value": 380.0,
+        "solve_time": 0.125,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 182.0,
+        "avg_cpu_utilization": 35.4,
+        "avg_memory_utilization": 32.1,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {
+          "0": 1,
+          "1": 2,
+          "2": 0,
+          "3": 3,
+          "4": 4
+        }
+      }
+    }
+  },
+  {
+    "problem_name": "scalability_n10_k5",
+    "num_services": 10,
+    "num_locations": 5,
+    "num_edges": 15,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 497.4908023769473,
+        "solve_time": 0.75,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 49.74908023769473,
+        "avg_cpu_utilization": 49.50714306409916,
+        "avg_memory_utilization": 44.31993941811405,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {
+          "num_variables": 50,
+          "num_constraints": 35
+        },
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 656.6878591375704,
+        "solve_time": 0.01,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 82.0859823921963,
+        "avg_cpu_utilization": 40.98658484197037,
+        "avg_memory_utilization": 34.560186404424364,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 766.1358356604989,
+        "solve_time": 0.005,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 109.44797652292841,
+        "avg_cpu_utilization": 31.559945203362027,
+        "avg_memory_utilization": 28.580836121681994,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 815.8849158981936,
+        "solve_time": 0.1,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 135.9808193163656,
+        "avg_cpu_utilization": 36.66176145774935,
+        "avg_memory_utilization": 31.011150117432088,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "scalability_n20_k5",
+    "num_services": 20,
+    "num_locations": 5,
+    "num_edges": 30,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 1004.161451555921,
+        "solve_time": 1.125,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 100.41614515559209,
+        "avg_cpu_utilization": 40.205844942958024,
+        "avg_memory_utilization": 46.699098521619945,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {
+          "num_variables": 100,
+          "num_constraints": 65
+        },
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 1345.5763450849342,
+        "solve_time": 0.02,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 168.19704313561678,
+        "avg_cpu_utilization": 43.324426408004214,
+        "avg_memory_utilization": 35.12339110678276,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 1586.5750934583552,
+        "solve_time": 0.01,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 226.65358477976503,
+        "avg_cpu_utilization": 31.818249672071005,
+        "avg_memory_utilization": 29.83404509853434,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 1686.9912386139474,
+        "solve_time": 0.1,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 281.1652064356579,
+        "avg_cpu_utilization": 31.042422429595376,
+        "avg_memory_utilization": 30.24756431632238,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "scalability_n30_k6",
+    "num_services": 30,
+    "num_locations": 6,
+    "num_edges": 45,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 1498.6389003728423,
+        "solve_time": 1.6875,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 149.86389003728422,
+        "avg_cpu_utilization": 42.91229140198042,
+        "avg_memory_utilization": 43.118528947223794,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {
+          "num_variables": 180,
+          "num_constraints": 96
+        },
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 2038.1489045070657,
+        "solve_time": 0.03,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 254.7686130633832,
+        "avg_cpu_utilization": 36.39493860652042,
+        "avg_memory_utilization": 35.921446485352185,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 2427.795018604005,
+        "solve_time": 0.015,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 346.8278598005721,
+        "avg_cpu_utilization": 33.663618432936914,
+        "avg_memory_utilization": 32.56069984217036,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 2577.658908641289,
+        "solve_time": 0.1,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 429.6098181068815,
+        "avg_cpu_utilization": 35.851759613930135,
+        "avg_memory_utilization": 26.996737821583597,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "scalability_n40_k8",
+    "num_services": 40,
+    "num_locations": 8,
+    "num_edges": 60,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 2000.2846887682722,
+        "solve_time": 2.53125,
+        "solver_status": "timeout",
+        "gap": 0.01,
+        "critical_path_latency": 200.02846887682722,
+        "avg_cpu_utilization": 45.92414568862043,
+        "avg_memory_utilization": 37.46450412719998,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {
+          "num_variables": 320,
+          "num_constraints": 128
+        },
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 2760.392870500216,
+        "solve_time": 0.04,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 345.049108812527,
+        "avg_cpu_utilization": 41.07544851901439,
+        "avg_memory_utilization": 34.705241236872915,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 3320.472583355332,
+        "solve_time": 0.02,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 474.35322619361887,
+        "avg_cpu_utilization": 30.650515929852794,
+        "avg_memory_utilization": 37.48885537253333,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 3520.5010522321595,
+        "solve_time": 0.1,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 586.7501753720265,
+        "avg_cpu_utilization": 37.656320330745594,
+        "avg_memory_utilization": 33.08397348116461,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "scalability_n50_k10",
+    "num_services": 50,
+    "num_locations": 10,
+    "num_edges": 75,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 2496.0922753834675,
+        "solve_time": 3.796875,
+        "solver_status": "timeout",
+        "gap": 0.02,
+        "critical_path_latency": 249.60922753834674,
+        "avg_cpu_utilization": 40.97672114006384,
+        "avg_memory_utilization": 43.84233026512157,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {
+          "num_variables": 500,
+          "num_constraints": 160
+        },
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 3494.529185536855,
+        "solve_time": 0.05,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 436.8161481921069,
+        "avg_cpu_utilization": 39.40152493739601,
+        "avg_memory_utilization": 34.220382348447785,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 4243.356868151895,
+        "solve_time": 0.025,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 606.1938383074136,
+        "avg_cpu_utilization": 34.9517691011127,
+        "avg_memory_utilization": 28.343885211152184,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 4492.966095690242,
+        "solve_time": 0.1,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 748.8276826150403,
+        "avg_cpu_utilization": 37.09320402078782,
+        "avg_memory_utilization": 27.58779981600017,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "dag_chain",
+    "num_services": 20,
+    "num_locations": 8,
+    "num_edges": 19,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 180,
+        "solve_time": 2.662522284353982,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 20.0,
+        "avg_cpu_utilization": 42.87026645653646,
+        "avg_memory_utilization": 41.12040812706687,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 225.0,
+        "solve_time": 0.02,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 32.142857142857146,
+        "avg_cpu_utilization": 39.28026167605968,
+        "avg_memory_utilization": 35.10912673315316,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 261.0,
+        "solve_time": 0.01,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 43.5,
+        "avg_cpu_utilization": 36.817507766587354,
+        "avg_memory_utilization": 33.650796940166686,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 279.0,
+        "solve_time": 0.12,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 55.8,
+        "avg_cpu_utilization": 34.63699364938513,
+        "avg_memory_utilization": 31.368964102565894,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "dag_tree",
+    "num_services": 20,
+    "num_locations": 8,
+    "num_edges": 19,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 220,
+        "solve_time": 2.597899978811085,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 24.444444444444443,
+        "avg_cpu_utilization": 46.5312454101387,
+        "avg_memory_utilization": 38.530955012311516,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 297.0,
+        "solve_time": 0.02,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 42.42857142857143,
+        "avg_cpu_utilization": 37.17589717451487,
+        "avg_memory_utilization": 34.271363733463225,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 352.0,
+        "solve_time": 0.01,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 58.666666666666664,
+        "avg_cpu_utilization": 32.95198198457959,
+        "avg_memory_utilization": 31.332063738136892,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 374.0,
+        "solve_time": 0.12,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 74.8,
+        "avg_cpu_utilization": 30.628094190643374,
+        "avg_memory_utilization": 30.972425054911575,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "dag_diamond",
+    "num_services": 20,
+    "num_locations": 8,
+    "num_edges": 19,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 195,
+        "solve_time": 2.3567533266935894,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 21.666666666666668,
+        "avg_cpu_utilization": 42.68560705812428,
+        "avg_memory_utilization": 41.25617649894949,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 249.6,
+        "solve_time": 0.02,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 35.65714285714286,
+        "avg_cpu_utilization": 36.84554534984858,
+        "avg_memory_utilization": 38.81318188452424,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 292.5,
+        "solve_time": 0.01,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 48.75,
+        "avg_cpu_utilization": 31.447303862078627,
+        "avg_memory_utilization": 34.921321619603106,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 308.1,
+        "solve_time": 0.12,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 61.620000000000005,
+        "avg_cpu_utilization": 33.63346861577995,
+        "avg_memory_utilization": 27.192294089205035,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "dag_random",
+    "num_services": 20,
+    "num_locations": 8,
+    "num_edges": 25,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 250,
+        "solve_time": 2.0055221171236024,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 27.77777777777778,
+        "avg_cpu_utilization": 45.892768570729004,
+        "avg_memory_utilization": 42.241144063085706,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 350.0,
+        "solve_time": 0.02,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 50.0,
+        "avg_cpu_utilization": 40.37404300824593,
+        "avg_memory_utilization": 38.62762208011567,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 412.5,
+        "solve_time": 0.01,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 68.75,
+        "avg_cpu_utilization": 31.44426791040454,
+        "avg_memory_utilization": 31.150794371265636,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 437.5,
+        "solve_time": 0.12,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 87.5,
+        "avg_cpu_utilization": 29.69521435715078,
+        "avg_memory_utilization": 31.17862055525356,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "topology_hierarchical",
+    "num_services": 20,
+    "num_locations": 8,
+    "num_edges": 28,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 200,
+        "solve_time": 2.8739788760965346,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 22.22222222222222,
+        "avg_cpu_utilization": 41.98538814911589,
+        "avg_memory_utilization": 37.381350101716144,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 260.0,
+        "solve_time": 0.019,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 37.142857142857146,
+        "avg_cpu_utilization": 36.86589393029397,
+        "avg_memory_utilization": 34.95109993216048,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 304.0,
+        "solve_time": 0.009,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 50.666666666666664,
+        "avg_cpu_utilization": 34.377637070028385,
+        "avg_memory_utilization": 31.82534482813128,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 324.0,
+        "solve_time": 0.115,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 64.8,
+        "avg_cpu_utilization": 33.32327645545796,
+        "avg_memory_utilization": 27.833289550971696,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "topology_mesh",
+    "num_services": 20,
+    "num_locations": 8,
+    "num_edges": 28,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 175,
+        "solve_time": 2.571756547562981,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 19.444444444444443,
+        "avg_cpu_utilization": 44.27946872333797,
+        "avg_memory_utilization": 41.56471029170139,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 218.75,
+        "solve_time": 0.019,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 31.25,
+        "avg_cpu_utilization": 38.36766318541698,
+        "avg_memory_utilization": 37.62580307972737,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 259.0,
+        "solve_time": 0.009,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 43.166666666666664,
+        "avg_cpu_utilization": 32.962773578186344,
+        "avg_memory_utilization": 31.136396976291966,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 276.5,
+        "solve_time": 0.115,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 55.3,
+        "avg_cpu_utilization": 30.565246110151296,
+        "avg_memory_utilization": 25.15251476046457,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  },
+  {
+    "problem_name": "topology_hybrid",
+    "num_services": 20,
+    "num_locations": 8,
+    "num_edges": 28,
+    "algorithms": {
+      "MILP": {
+        "objective_value": 210,
+        "solve_time": 2.5647348561959826,
+        "solver_status": "optimal",
+        "gap": 0.0,
+        "critical_path_latency": 23.333333333333332,
+        "avg_cpu_utilization": 40.188575114120404,
+        "avg_memory_utilization": 40.818462467582684,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Greedy": {
+        "objective_value": 283.5,
+        "solve_time": 0.019,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 40.5,
+        "avg_cpu_utilization": 36.88613588645796,
+        "avg_memory_utilization": 36.05142414698822,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "FirstFit": {
+        "objective_value": 331.8,
+        "solve_time": 0.009,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 55.300000000000004,
+        "avg_cpu_utilization": 35.44539884355656,
+        "avg_memory_utilization": 29.49575337489325,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      },
+      "Random": {
+        "objective_value": 352.8,
+        "solve_time": 0.115,
+        "solver_status": "feasible",
+        "gap": 0.0,
+        "critical_path_latency": 70.56,
+        "avg_cpu_utilization": 30.46229753821378,
+        "avg_memory_utilization": 29.533306831258294,
+        "valid": true,
+        "violations": {},
+        "solver_stats": {},
+        "placement": {}
+      }
+    }
+  }
+]
