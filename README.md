@@ -120,7 +120,7 @@ If you use this code or paper, please cite:
 ```bibtex
 @article{latency_aware_placement_2024,
   title={Latency-Aware Service Placement on the Fog-Edge-Cloud Continuum via Integer Programming},
-  author={[Authors]},
+  author={Shankar, Deo},
   journal={Journal of Cloud Computing},
   year={2024},
   note={Under submission}
@@ -178,6 +178,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Gurobi Optimization for academic licenses
 - NetworkX, NumPy, Pandas, Matplotlib communities
 
+## Author
+
+**Deo Shankar**
+Tiger Analytics
+Email: deo.shankar@tigeranalytics.com
+
 ## Contact
 
-For questions or issues, please open a GitHub issue.
+For questions or issues, please open a GitHub issue or contact deo.shankar@tigeranalytics.com
